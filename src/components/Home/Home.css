@@ -1,0 +1,46 @@
+.coverImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#covidText {
+    display: flex;
+    flex-direction: column;   
+    width: 40%;
+    text-align: center;
+    padding: 3%;
+}
+
+#covidUpdate {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+img {
+    height: 425px; 
+    object-fit: cover;
+    overflow: hidden;
+    width: 425px; 
+}
+
+#img4 {
+    height: 600px; 
+    object-position: 20% 10px; 
+    width: 600px; 
+}
+
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;   
+    text-align: center;   
+}
+
+.welcomeText p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
