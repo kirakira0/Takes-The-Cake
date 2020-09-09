@@ -7,18 +7,18 @@ const Order = () => {
       <h3>Order</h3>
       <Form>
         <FormGroup>
-          <Label for='name'>名前：</Label>
+          <Label for='name'>Name：</Label>
           <Input 
             type='text' 
             name='name' />
         </FormGroup>
         <FormGroup>
-          <Label for='message'>メッセージ：</Label>
+          <Label for='message'>Message：</Label>
           <Input 
             type='textarea' 
             name='message' />
         </FormGroup>
-        <Button>申し出る</Button>
+        <Button>Submit</Button>
       </Form>
     </div>
   );
