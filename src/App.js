@@ -14,6 +14,7 @@ import Home from "./components/Home/Home";
 import Order from "./components/Order/Order";
 import Gallery from "./components/Gallery/Gallery";
 import Location from "./components/Location/Location";
+import Footer from "./components/Footer/Footer";
 
 const App = () => (
   <Router>
@@ -27,6 +28,7 @@ const App = () => (
         <Route path="/location" component={Location} />
         <Redirect exact from="/" to="home" />
       </Switch>
+      <Footer />
     </div>
   </Router>
 );
